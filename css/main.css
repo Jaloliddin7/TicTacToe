@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*:focus{
+    outline: 1px dashed #000;
+    outline-offset: 1px;
+}
+html{
+    height: 100%;
+    scroll-behavior: initial;  
+}
+body{
+    height: 100%;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 14px;
+    letter-spacing: 1.3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-transform: inherit;
+}
+.conteiner{
+    width: min(100%,500px);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+img{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
