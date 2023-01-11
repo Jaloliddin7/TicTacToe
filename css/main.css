@@ -30,7 +30,6 @@ ul{
 /* HEADER */
 .header__list{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 85px;
     margin-bottom: 20px;
